@@ -1,7 +1,9 @@
-export const LINKDIN_URL = '';
-export const GITHUB_URL = '';
-export const MAIL = '';
-export const RESUME = '';
+export const LINKDIN_URL =
+  'https://www.linkedin.com/in/desmond-mends-061321241';
+export const GITHUB_URL = 'https://github.com/Desmond123-arch';
+export const MAIL = 'mailto:desmondmends27@gmail.com';
+export const RESUME =
+  'https://docs.google.com/document/d/1fQQRPr6SEfVNr65N6XR_RA64ROTj7BSvc2TU4_gwLSk/edit?usp=sharing';
 
 export type lottieConfig = {
   link: string;
