@@ -29,10 +29,10 @@ const Description = () => {
   }, []);
 
   return (
-    <div className="flex flex-col gap-5 w-full sm:w-[55%]">
-      <h1 className="text-3xl">Hello, My name is Desmond Opoku Mends</h1>
+    <div className="flex flex-col gap-5 w-full md:w-[55%]">
+      <h1 className="text-xl md:text-3xl">Hello, My name is Desmond Opoku Mends</h1>
       <div>
-        <p className="text-lg/relaxed min-h-48">
+        <p className="text-lg/relaxed min-h-80 md:min-h-48">
           {contents}
           {posRef.current < DESCRIPTION.length - 1 && '_'}
         </p>
