@@ -3,7 +3,7 @@ export const LINKDIN_URL =
 export const GITHUB_URL = 'https://github.com/Desmond123-arch';
 export const MAIL = 'mailto:desmondmends27@gmail.com';
 export const RESUME =
-  'https://docs.google.com/document/d/1fQQRPr6SEfVNr65N6XR_RA64ROTj7BSvc2TU4_gwLSk/edit?usp=sharing';
+  'https://drive.google.com/file/d/1djKIGRw-BEtOa9bz0nw0c7lQR00KGQ6u/view?usp=sharing';
 
 export type lottieConfig = {
   link: string;

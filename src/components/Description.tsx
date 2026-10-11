@@ -30,7 +30,9 @@ const Description = () => {
 
   return (
     <div className="flex flex-col gap-5 w-full md:w-[55%]">
-      <h1 className="text-xl md:text-3xl">Hello, My name is Desmond Opoku Mends</h1>
+      <h1 className="text-xl md:text-3xl">
+        Hello, My name is Desmond Opoku Mends
+      </h1>
       <div>
         <p className="text-lg/relaxed min-h-80 md:min-h-48">
           {contents}
