@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 
 const MyAvatar = () => (
-  <div className="w-max h-max p-12 flex items-center justify-center mx-15 hidden md:block">
+  <div className="w-max h-max p-12 items-center justify-center mx-15 hidden md:block">
     <svg
       width={220}
       height={252}

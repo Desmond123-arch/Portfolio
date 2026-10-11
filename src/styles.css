@@ -121,3 +121,9 @@ body {
   from { clip-path: circle(0% at 100% 0%); }
   to { clip-path: circle(150% at 100% 0%); }
 }
+
+@layer components {
+    .center {
+        @apply fixed inset-0 max-w-[100vw] max-h-[100vh] m-auto
+    }
+}

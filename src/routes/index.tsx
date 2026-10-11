@@ -6,7 +6,7 @@ export const Route = createFileRoute('/')({ component: Home });
 
 function Home() {
   return (
-    <div className="w-full mt-10 px-5 md:px-10 flex flex-row  justify-between items-center">
+    <div className="w-full mt-10 px-5 md:px-10 flex flex-row justify-between items-center center">
       <MyAvatar />
       <Description />
     </div>
